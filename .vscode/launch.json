@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Flask: Network Console",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/api.py",
+      "console": "integratedTerminal",
+      "justMyCode": true,
+      "serverReadyAction": {
+        "pattern": "Running on (http://127\\.0\\.0\\.1:5000)",
+        "uriFormat": "%s",
+        "action": "openExternally"
+      }
+    }
+  ]
+}
